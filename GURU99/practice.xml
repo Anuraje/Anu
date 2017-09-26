@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="InheritanceConcept">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="startRow" value="1"></parameter>
+  <parameter name="endRow" value="1"></parameter>
+  <parameter name="csvFile" value="C:\AnuProjectSelenium\GURU99\src\resources\mycsv1.csv"></parameter>
+    <classes>
+      <class name="testClasses.CreateNewAccount"/>
+          </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

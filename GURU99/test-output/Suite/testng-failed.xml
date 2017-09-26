@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="BANKING.GURU99.navigateToApplication">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Login"/>
+          <include name="newCustomer"/>
+          <include name="navigate"/>
+          <include name="FireBrowser"/>
+        </methods>
+      </class> <!-- BANKING.GURU99.navigateToApplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

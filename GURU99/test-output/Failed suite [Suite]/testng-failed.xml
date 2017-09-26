@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="InheritanceConcept(failed)(failed)">
+    <parameter name="startRow" value="1"/>
+    <parameter name="csvFile" value="C:\\AnuProjectSelenium\\GURU99\\src\\main\\java\\resources\\mycsv.csv"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="endRow" value="1"/>
+    <classes>
+      <class name="testClasses.CreateNewAccount">
+        <methods>
+          <include name="CreateNewAccountfromHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testClasses.CreateNewAccount -->
+    </classes>
+  </test> <!-- InheritanceConcept(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
